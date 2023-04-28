@@ -619,6 +619,18 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+<<<<<<< Updated upstream
+=======
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "ac18e0a1-094e-415e-9b11-d797500db09d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+>>>>>>> Stashed changes
                 }
             ],
             "bindings": [
@@ -753,6 +765,20 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": false
+<<<<<<< Updated upstream
+=======
+                },
+                {
+                    "name": "",
+                    "id": "5a599d55-06f7-4c3d-8389-a699730511df",
+                    "path": "<XRController>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+>>>>>>> Stashed changes
                 }
             ]
         },
