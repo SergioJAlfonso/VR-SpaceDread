@@ -4,7 +4,12 @@
         "VR Device User Alert"
     ],
     "m_SettingValues": [
+<<<<<<< Updated upstream
         "True",
         "True"
+=======
+        "False",
+        "False"
+>>>>>>> Stashed changes
     ]
 }

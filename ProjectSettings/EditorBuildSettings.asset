@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/XRIExamples/Scenes/XRI_Examples_Main.unity
     guid: ba755f5a181505a4799b21685d4c7576
   m_configObjects:
@@ -14,4 +15,12 @@ EditorBuildSettings:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fba6072275013e6448e381f83d131b7f,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e60ad326389e9b14e9f7ae2c33703862,
+=======
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 08bedf8fd73c61a419507edb5ce60900,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 86c922ea5ff0e8149af8807239888d42,
+>>>>>>> Stashed changes
       type: 2}

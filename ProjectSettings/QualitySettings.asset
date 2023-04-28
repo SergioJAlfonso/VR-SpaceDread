@@ -4,10 +4,17 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
+<<<<<<< Updated upstream
   m_CurrentQuality: 1
   m_QualitySettings:
   - serializedVersion: 2
     name: Low
+=======
+  m_CurrentQuality: 2
+  m_QualitySettings:
+  - serializedVersion: 2
+    name: Performant
+>>>>>>> Stashed changes
     pixelLightCount: 0
     shadows: 0
     shadowResolution: 0
@@ -35,16 +42,28 @@ QualitySettings:
     streamingMipmapsRenderersPerFrame: 512
     streamingMipmapsMaxLevelReduction: 2
     streamingMipmapsMaxFileIORequests: 1024
+<<<<<<< Updated upstream
     particleRaycastBudget: 16
+=======
+    particleRaycastBudget: 4
+>>>>>>> Stashed changes
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< Updated upstream
     customRenderPipeline: {fileID: 11400000, guid: a31e9f9f9c9d4b9429ed0d1234e22103,
       type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Medium
+=======
+    customRenderPipeline: {fileID: 11400000, guid: d0e2fc18fe036412f8223b3b3d9ad574,
+      type: 2}
+    excludedTargetPlatforms: []
+  - serializedVersion: 2
+    name: Balanced
+>>>>>>> Stashed changes
     pixelLightCount: 1
     shadows: 1
     shadowResolution: 0
@@ -55,6 +74,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
+<<<<<<< Updated upstream
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
@@ -65,6 +85,18 @@ QualitySettings:
     billboardsFaceCameraPosition: 1
     vSyncCount: 1
     lodBias: 0.7
+=======
+    skinWeights: 4
+    textureQuality: 0
+    anisotropicTextures: 1
+    antiAliasing: 0
+    softParticles: 0
+    softVegetation: 0
+    realtimeReflectionProbes: 0
+    billboardsFaceCameraPosition: 0
+    vSyncCount: 1
+    lodBias: 1
+>>>>>>> Stashed changes
     maximumLODLevel: 0
     streamingMipmapsActive: 0
     streamingMipmapsAddAllCameras: 1
@@ -77,11 +109,19 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< Updated upstream
     customRenderPipeline: {fileID: 11400000, guid: d847b876476d3d6468f5dfcd34266f96,
       type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: High
+=======
+    customRenderPipeline: {fileID: 11400000, guid: e1260c1148f6143b28bae5ace5e9c5d1,
+      type: 2}
+    excludedTargetPlatforms: []
+  - serializedVersion: 2
+    name: High Fidelity
+>>>>>>> Stashed changes
     pixelLightCount: 2
     shadows: 2
     shadowResolution: 1
@@ -92,16 +132,27 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
+<<<<<<< Updated upstream
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
     antiAliasing: 2
+=======
+    skinWeights: 255
+    textureQuality: 0
+    anisotropicTextures: 2
+    antiAliasing: 4
+>>>>>>> Stashed changes
     softParticles: 0
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
     vSyncCount: 1
+<<<<<<< Updated upstream
     lodBias: 1
+=======
+    lodBias: 2
+>>>>>>> Stashed changes
     maximumLODLevel: 0
     streamingMipmapsActive: 0
     streamingMipmapsAddAllCameras: 1
@@ -109,19 +160,38 @@ QualitySettings:
     streamingMipmapsRenderersPerFrame: 512
     streamingMipmapsMaxLevelReduction: 2
     streamingMipmapsMaxFileIORequests: 1024
+<<<<<<< Updated upstream
     particleRaycastBudget: 256
+=======
+    particleRaycastBudget: 2048
+>>>>>>> Stashed changes
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< Updated upstream
     customRenderPipeline: {fileID: 11400000, guid: 19ba41d7c0026c3459d37c2fe90c55a0,
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 7b7fd9122c28c4d15b667c7040e3b3fd,
+>>>>>>> Stashed changes
       type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 1
+<<<<<<< Updated upstream
     Lumin: 2
     Nintendo Switch: 2
     PS4: 2
+=======
+    CloudRendering: 2
+    GameCoreScarlett: 2
+    GameCoreXboxOne: 2
+    Lumin: 2
+    Nintendo Switch: 1
+    PS4: 2
+    PS5: 2
+    Server: 0
+>>>>>>> Stashed changes
     Stadia: 2
     Standalone: 2
     WebGL: 1

@@ -3,12 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< Updated upstream
   tags:
   - Flame
   - Projectile
   - Destroyer
   - MiniWorldCamera
   - Water
+=======
+  tags: []
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -17,6 +21,13 @@ TagManager:
   - Water
   - UI
   - 
+<<<<<<< Updated upstream
+=======
+  - Player
+  - Interactuable
+  - 
+  - 
+>>>>>>> Stashed changes
   - 
   - 
   - 
@@ -38,10 +49,13 @@ TagManager:
   - 
   - 
   - 
+<<<<<<< Updated upstream
   - Pushable
   - Character Collider
   - Character Controller
   - Teleport
+=======
+>>>>>>> Stashed changes
   m_SortingLayers:
   - name: Default
     uniqueID: 0

@@ -24,7 +24,10 @@ MonoBehaviour:
     m_Scopes: []
     m_IsDefault: 1
     m_Capabilities: 7
+<<<<<<< Updated upstream
     m_ConfigSource: 0
+=======
+>>>>>>> Stashed changes
   m_UserSelectedRegistryName: 
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
@@ -36,7 +39,10 @@ MonoBehaviour:
       m_Scopes: []
       m_IsDefault: 0
       m_Capabilities: 0
+<<<<<<< Updated upstream
       m_ConfigSource: 0
+=======
+>>>>>>> Stashed changes
     m_Modified: 0
     m_Name: 
     m_Url: 

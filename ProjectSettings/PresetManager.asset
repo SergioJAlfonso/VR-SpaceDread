@@ -4,6 +4,7 @@
 PresetManager:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_DefaultPresets:
   - first:
       m_NativeTypeID: 114
@@ -73,3 +74,6 @@ PresetManager:
         type: 2}
       m_Filter: 
       m_Disabled: 0
+=======
+  m_DefaultPresets: {}
+>>>>>>> Stashed changes
