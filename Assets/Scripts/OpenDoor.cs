@@ -6,6 +6,10 @@ public class OpenDoor : MonoBehaviour
 {
     bool opening = false;
 
+    float cuantity = 3.0f;
+
+    float acumJeje = 0;
+
     public void open()
     {
         opening = true;
@@ -13,11 +17,13 @@ public class OpenDoor : MonoBehaviour
 
     private void Update()
     {
-        open();
+
         if (opening)
         {
-            Debug.Log("Risuo");
             transform.Translate(new Vector3(0, 0.01f, 0));
+            acumJeje += 0.01f;
+
+            if (acumJeje >= cuantity) opening = false;
         }
     }
 }
