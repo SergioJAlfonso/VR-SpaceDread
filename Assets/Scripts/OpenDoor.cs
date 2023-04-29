@@ -26,4 +26,8 @@ public class OpenDoor : MonoBehaviour
             if (acumJeje >= cuantity) opening = false;
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        open(); 
+    }
 }
