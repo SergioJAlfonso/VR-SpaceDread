@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking.Types;
 
 public class OpenDoor : MonoBehaviour
 {
@@ -14,14 +15,23 @@ public class OpenDoor : MonoBehaviour
 
     float acumJejeBajar = 0;
 
+    AudioSource audioSource;
+
     public void open()
     {
         opening = true;
+        audioSource.Play();
     }
 
     public void close()
     {
         closing = true;
+        audioSource.Play();
+    }
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
