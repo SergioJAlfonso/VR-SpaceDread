@@ -42,16 +42,16 @@ public class OpenDoor : MonoBehaviour
 
         if (opening)
         {
-            transform.Translate(new Vector3(0, 0.01f, 0));
-            acumJeje += 0.01f;
+            transform.Translate(new Vector3(0, 0.05f, 0));
+            acumJeje += 0.05f;
 
             if (acumJeje >= cuantity) opening = false;
         }
 
         if (closing)
         {
-            transform.Translate(new Vector3(0, -0.01f, 0));
-            acumJejeBajar += 0.01f;
+            transform.Translate(new Vector3(0, -0.05f, 0));
+            acumJejeBajar += 0.05f;
 
             if (acumJejeBajar >= cuantity) closing = false;
         }
