@@ -20,12 +20,14 @@ public class OpenDoor : MonoBehaviour
     public void open()
     {
         opening = true;
+        closing = false;
         audioSource.Play();
     }
 
     public void close()
     {
         closing = true;
+        opening = false;
         audioSource.Play();
     }
 
@@ -45,7 +47,11 @@ public class OpenDoor : MonoBehaviour
             transform.Translate(new Vector3(0, 0.01f, 0));
             acumJeje += 0.01f;
 
-            if (acumJeje >= cuantity) opening = false;
+            if (acumJeje >= cuantity)
+            {
+                opening = false;
+                acumJeje = 0;
+            }
         }
 
         if (closing)
@@ -53,16 +59,20 @@ public class OpenDoor : MonoBehaviour
             transform.Translate(new Vector3(0, -0.01f, 0));
             acumJejeBajar += 0.01f;
 
-            if (acumJejeBajar >= cuantity) closing = false;
+            if (acumJejeBajar >= cuantity)
+            {
+                closing = false;
+                acumJejeBajar = 0;
+            }
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        open(); 
+        if(acumJejeBajar == 0 && acumJeje == 0) open();
     }
 
     private void OnTriggerExit(Collider other)
     {
-        close();
+        if (acumJejeBajar == 0 && acumJeje == 0) close();
     }
 }
