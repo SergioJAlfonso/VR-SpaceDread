@@ -8,14 +8,12 @@ public class checkPassword : MonoBehaviour
 
     public GameObject[] buttons;
 
-    public GameObject puerta;
-
     public void checkNumbers()
     {
         int i = 0;
         bool correcto = true;
 
-        while (correcto)
+        while ( i < buttons.Length && correcto)
         {
             int checkeo = buttons[i].GetComponent<changeNumber>().currentNumber;
 
@@ -23,6 +21,16 @@ public class checkPassword : MonoBehaviour
             
             i++;
         }
+
+        if(i == buttons.Length)
+        {
+            GetComponent<OpenDoor>().open();
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P)) GetComponent<checkPassword>().checkNumbers();
     }
 
 }
