@@ -30,7 +30,7 @@ public class checkPassword : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P)) GetComponent<checkPassword>().checkNumbers();
+        if (Input.GetKeyDown(KeyCode.O)) checkNumbers();
     }
 
 }

@@ -47,6 +47,14 @@ public class OpenDoor : MonoBehaviour
             transform.Translate(new Vector3(0, 0.01f, 0));
             acumJeje += 0.01f;
 
+            //Cambiar este if si quereis que la animación empiece más arriba o más abajo
+            if(acumJeje > (cuantity / 3)) //Para que la puerta final trigerre la animación del munieco
+            {
+                startAnim anim = GetComponent<startAnim>(); 
+
+                if (anim != null) anim.startAnimasiao();
+            }
+
             if (acumJeje >= cuantity)
             {
                 opening = false;
