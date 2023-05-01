@@ -22,7 +22,7 @@ public class checkPassword : MonoBehaviour
             i++;
         }
 
-        if(i == buttons.Length)
+        if(i == buttons.Length && correcto)
         {
             GetComponent<OpenDoor>().open();
         }

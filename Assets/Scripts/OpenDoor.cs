@@ -38,10 +38,6 @@ public class OpenDoor : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.O)) open();
-        if (Input.GetKeyDown(KeyCode.C)) close();
-
-
         if (opening)
         {
             transform.Translate(new Vector3(0, 0.01f, 0));
